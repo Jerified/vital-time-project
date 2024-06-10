@@ -1,6 +1,6 @@
 export interface ICountry {
-    id: number;
+    id?: number;
     name: string;
     place: string;
     src: string;
-}
+}[]
