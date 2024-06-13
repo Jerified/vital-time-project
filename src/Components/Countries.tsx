@@ -39,7 +39,6 @@ export default function Countries({ countries }: any) {
                                 setDraggedId(country.id)
                             }}
                             onDragEnd={() => {
-                                handleDragEnd(country.id)
                                 setDraggedId(null)
                             }}
                             whileDrag={{
